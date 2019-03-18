@@ -43,9 +43,27 @@ To watch some training videos, visit http://www.youtube.com/user/c9ide
 
 
 
+__________________________________________________
+
+Code on Github - https://github.com/dcooper163/price
+
+ToDo Application with React and Django - https://scotch.io/tutorials/build-a-to-do-application-using-django-and-react
+
+Manage Customer Info with ZReact and Django -https://www.digitalocean.com/community/tutorials/how-to-build-a-modern-web-application-to-manage-customer-information-with-django-and-react-on-ubuntu-18-04#step-3-%E2%80%94-creating-the-react-frontend
+
+Django Rest Framework - https://www.django-rest-framework.org/
+
+Git - https://www.git-tower.com/learn/git/commands/git-commit
+
+Django tutorial - https://docs.djangoproject.com/en/2.1/intro/tutorial01/
+
+
+
+
 1) dcooper163:~/workspace $ pip --version
 
 	pip 1.5.4 from /usr/lib/python2.7/dist-packages (python 2.7)
+
 2) dcooper163:~/workspace $ python --version
 
 	Python 2.7.6
@@ -82,4 +100,96 @@ Add to github....
 	12) git remote add origin https://github.com/dcooper163/price.git
 	13) git push -u origin master
 
+
 Install Django Rest Framework....
+
+Update Node version...
+	14) node --version
+	v6.11.2
+
+15) nvm i v8 --reinstall-packages-from=defaul
+
+#sudo npm cache clean -f
+npm WARN using --force I sure hope you know what #you are doing.
+
+#sudo npm install -g n
+/home/ubuntu/.nvm/versions/node/v6.11.2/bin/n -> #/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/n/bin/n
+#/home/ubuntu/.nvm/versions/node/v6.11.2/lib
+
+#sudo n stable
+   #installed : v6.11.2
+
+
+16) node --version
+
+v8.15.1
+
+Add Front End
+	npm install -g create-react-app
+	create-react-app frontend
+
+
+Creating a new React app in /home/ubuntu/workspace/frontend.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts...
+
++ react@16.8.4
++ react-dom@16.8.4
++ react-scripts@2.1.8
+added 1838 packages from 718 contributors and audited 36231 packages in 168.166s
+found 63 low severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+Success! Created frontend at /home/ubuntu/workspace/frontend
+Inside that directory, you can run several commands:
+
+  npm start
+    
+
+Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd frontend
+  npm start
+
+
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts...
+
++ react@16.8.4
++ react-dom@16.8.4
++ react-scripts@2.1.8
+added 1838 packages from 718 contributors and audited 36231 packages in 168.166s
+? Something is already running on port 8080. Probably:
+  /usr/bin/python2 manage.py runserver 0.0.0.0:8080 (pid 6003)
+  in /home/ubuntu/workspace
+
+Would you like to run the app on another port instead? (Y/n) 
+
+
+You can now view frontend in the browser.
+
+  Local:            http://localhost:8081/
+  On Your Network:  http://172.17.0.94:8081/
+
+Note that the development build is not optimized.
+
+Installed Full Stack App Url
+
+DJango - https://price-dcooper163.c9users.io/
+React - https://price-dcooper163.c9users.io:8081/
+
+
